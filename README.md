@@ -5,8 +5,8 @@ Software Project Management Term Project
 Mustafa Tayyip BAYRAM - 170706007  
 Furkan ÖCALAN - 170706003  
 Damlanur TOPCU - 170706012  
-Ecem - ------  
-Kutay - ------  
+Ecem - YENİTÜRK - 170706024  
+Kutay - TORLAK - 180706026  
 Mert - -----  
 
 Meeting-Zone is a simple video chat application for multi-users based on React, Node Express and WebRTC.
