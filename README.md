@@ -34,8 +34,6 @@ Meeting-Zone is a simple video chat application for multi-users based on React, 
 - Screen Sharing
 
 ## Installation
-### Clone
-- Clone this repo to your local machine using `https://github.com/Hyunse/video-group-meeting.git`
 
 ### Setup
 **Client**
