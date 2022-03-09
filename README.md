@@ -1,8 +1,16 @@
-# Video-Group-Meeting
+# Meeting-Zone
 
-Videe-Group-Meeting is a simple video chat application for multi-users based on React, Node Express and WebRTC.
+Software Project Management Term Project
 
-This project is **deployed** at: https://video-group-meeting.herokuapp.com/
+Mustafa Tayyip BAYRAM - 170706007  
+Furkan ÖCALAN - 170706003  
+Damlanur TOPCU - 170706012  
+Ecem - ------  
+Kutay - ------  
+Mert - -----  
+
+Meeting-Zone is a simple video chat application for multi-users based on React, Node Express and WebRTC.
+
 
 **Technologies Used**
 
