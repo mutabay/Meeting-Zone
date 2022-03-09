@@ -60,9 +60,6 @@ Meeting-Zone is a simple video chat application for multi-users based on React, 
   </code>
 </pre>
 
-## Todo 🔨🔨🔨
-
-- [x] Switch Camera options
 
 ## License
 [MIT License](./LICENSE)
