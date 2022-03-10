@@ -7,7 +7,7 @@ Furkan ÖCALAN - 170706003
 Damlanur TOPCU - 170706012  
 Ecem - YENİTÜRK - 170706024  
 Kutay - TORLAK - 180706026  
-Mert - -----  
+Mert - YILMAZ -  180706006 
 
 Meeting-Zone is a simple video chat application for multi-users based on React, Node Express and WebRTC.
 
