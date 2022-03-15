@@ -1,8 +1,16 @@
-# Video-Group-Meeting
+# Meeting-Zone
 
-Videe-Group-Meeting is a simple video chat application for multi-users based on React, Node Express and WebRTC.
+Software Project Management Term Project
 
-This project is **deployed** at: https://video-group-meeting.herokuapp.com/
+Mustafa Tayyip BAYRAM - 170706007  
+Furkan ÖCALAN - 170706003  
+Damlanur TOPCU - 170706012  
+Ecem - YENİTÜRK - 170706024  
+Kutay - TORLAK - 180706026  
+Mert - YILMAZ -  180706006 
+
+Meeting-Zone is a simple video chat application for multi-users based on React, Node Express and WebRTC.
+
 
 **Technologies Used**
 
@@ -26,8 +34,6 @@ This project is **deployed** at: https://video-group-meeting.herokuapp.com/
 - Screen Sharing
 
 ## Installation
-### Clone
-- Clone this repo to your local machine using `https://github.com/Hyunse/video-group-meeting.git`
 
 ### Setup
 **Client**
@@ -54,9 +60,6 @@ This project is **deployed** at: https://video-group-meeting.herokuapp.com/
   </code>
 </pre>
 
-## Todo 🔨🔨🔨
-
-- [x] Switch Camera options
 
 ## License
 [MIT License](./LICENSE)
