@@ -36,7 +36,7 @@ Meeting-Zone is a simple video chat application for multi-users based on React, 
 ## Installation
 
 ### Setup
-**Client**
+**Client---*
 > Move to client folder, update and install this package
 <pre>
   <code>
