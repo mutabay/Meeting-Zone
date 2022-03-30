@@ -5,14 +5,6 @@ const io = require('socket.io')(http);
 const PORT = process.env.PORT || 3001;
 const path = require('path');
 
-var session = require('express-session');
-const server = require("http").Server(app);
-const {
-  ExpressPeerServer
-} = require("peer");
-const shortid = require("shortid");
-var bodyParser = require('body-parser');
-
 let socketList = {};
 
 app.use(express.static(path.join(__dirname, 'public')));
