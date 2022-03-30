@@ -2,6 +2,8 @@
 
 Software Project Management Term Project
 
+https://meeting-zone.herokuapp.com/
+
 Mustafa Tayyip BAYRAM - 170706007  
 Furkan ÖCALAN - 170706003  
 Damlanur TOPCU - 170706012  
