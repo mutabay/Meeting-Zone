@@ -5,6 +5,7 @@ import socket from '../../socket';
 import VideoCard from '../Video/VideoCard';
 import BottomBar from '../BottomBar/BottomBar';
 import Chat from '../Chat/Chat';
+import Profile from '../Profile/Profile';
 
 const Room = (props) => {
   const currentUser = sessionStorage.getItem('user');
@@ -14,6 +15,8 @@ const Room = (props) => {
   });
   const [videoDevices, setVideoDevices] = useState([]);
   const [displayChat, setDisplayChat] = useState(false);
+  const [displayProfile, setDisplayProfile] = useState(false);
+  
   const [screenShare, setScreenShare] = useState(false);
   const [showVideoDevices, setShowVideoDevices] = useState(false);
   const peersRef = useRef([]);
@@ -209,6 +212,12 @@ const Room = (props) => {
     setDisplayChat(!displayChat);
   };
 
+  // Open Profile
+  const clickProfile = (e) => {
+    e.stopPropagation();
+    setDisplayProfile(!displayProfile);
+  };
+
   // BackButton
   const goToBack = (e) => {
     e.preventDefault();
@@ -368,6 +377,7 @@ const Room = (props) => {
         <BottomBar
           clickScreenSharing={clickScreenSharing}
           clickChat={clickChat}
+          clickProfile={clickProfile}
           clickCameraDevice={clickCameraDevice}
           goToBack={goToBack}
           toggleCameraAudio={toggleCameraAudio}
@@ -379,6 +389,8 @@ const Room = (props) => {
         />
       </VideoAndBarContainer>
       <Chat display={displayChat} roomId={roomId} />
+      <Profile display={displayProfile} roomId={roomId} />
+
     </RoomContainer>
   );
 };

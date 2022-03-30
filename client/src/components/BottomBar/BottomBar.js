@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const BottomBar = ({
   clickChat,
+  clickProfile,
   clickCameraDevice,
   goToBack,
   toggleCameraAudio,
@@ -57,6 +58,12 @@ const BottomBar = ({
         </CameraButton>
       </Left>
       <Center>
+         <ProfileButton onClick={clickProfile}>
+          <div>
+            <FaIcon className='fa fa-user'></FaIcon>
+          </div>
+          User
+        </ProfileButton>
         <ChatButton onClick={clickChat}>
           <div>
             <FaIcon className='fas fa-comments'></FaIcon>
@@ -105,6 +112,23 @@ const Center = styled.div`
 `;
 
 const Right = styled.div``;
+
+const ProfileButton = styled.div`
+  width: 75px;
+  border: none;
+  font-size: 0.9375rem;
+  padding: 5px;
+
+  :hover {
+    background-color: #77b7dd;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  * {
+    pointer-events: none;
+  }
+`;
 
 const ChatButton = styled.div`
   width: 75px;
