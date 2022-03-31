@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from "./serviceWorker";
+import ProfilePage from "./components/ProfilePage";
+//import 'bootstrap/dist/css/cerulean.css'; //only when it is installed via "npm i bootstrap@latest"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ProfilePage />
   </React.StrictMode>,
   document.getElementById('root')
 );
