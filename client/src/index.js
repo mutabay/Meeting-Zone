@@ -8,7 +8,7 @@ import ProfilePage from "./components/ProfilePage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ProfilePage />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
