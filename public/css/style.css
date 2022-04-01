@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  background-image: url(https://wallpaperaccess.com/full/31214.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.box {
+  border-radius: 24px;
+  -webkit-backface-visibility: hidden;
+  width: 300px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, .4);
+  text-align: center;
+}
+
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box h2 {
+  color: darkblue;
+  font-weight: 100;
+  font-size: smaller;
+}
+
+a:visited {
+  color: deepskyblue;
+}
+
+.box h3 {
+  color: darkblue;
+  font-weight: 100;
+  font-size: smaller;
+}
+
+.box-login input[type="text"], .box-login input[type="password"] {
+  font-family: Verdana;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: width 0.25s;
+}
+
+.box-login input[type="text"]:focus, .box-login input[type="password"]:focus {
+  width: 270px;
+  border-color: #ff0000;
+}
+
+.box-login input[type="submit"] {
+  font-family: Verdana;
+  font-weight: 400;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid;
+  border-color: #ff0000;
+  padding: 14px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: width 0.25s;
+  cursor: pointer;
+}
+
+.box-login input[type="submit"]:hover {
+  background: #ff0000;
+}
+
+.box-button {
+ background: none!important;
+ border: none;
+ padding: 0!important;
+ /*optional*/
+ font-family: arial, sans-serif;
+ /*input has OS specific font-family*/
+ color: deepskyblue;
+ text-decoration: underline;
+ cursor: pointer;
+}
+}
