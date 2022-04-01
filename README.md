@@ -46,7 +46,9 @@ Meeting-Zone is a simple video chat application for multi-users based on React, 
 5-a) You need to create a database in order to run it fully-functional.(https://www.freemysqlhosting.net/ is sufficient for small deployments.) <br>
 5.a) Fill DB credentials in `server.js`. These are commented for you. <br>
 5.b) There is a simple database in the app. You can register & login. <br>
-6) Type `node server.js`. If it prints **connected**, then DB connection is successful and the app is running without any errors.
+6.a) Type `node server.js`. If it prints **connected**, then DB connection is successful and the app is running without any errors.
+6.b) Type `npm start` for starting with nodemon. If it prints **connected**, then DB connection is successful and the app is running without any errors.
+
 7) Open http://127.0.0.1:5000/ in your browser.
 8) You can create accounts and then login, as well as create some meetings.
 
