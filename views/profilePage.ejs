@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 2000px;
+            height: 1000px;
+            margin: auto;
+            text-align: left;
+            font-family: arial;
+        }
+
+        .card h1 {
+            margin-left: 35px;
+
+        }
+
+        .card p {
+            margin-left: 35px;
+
+        }
+
+        .username {
+            color: grey;
+            font-size: 26px;
+        }
+
+        .email {
+            font-size: 18px;
+            color: #01005e;
+        }
+
+        #navigation {
+            letter-spacing: 0.3em;
+            word-spacing: 0.2em;
+            background-color: #000000;
+        }
+
+        #navigation ul {
+            background-color: #800000;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #navigation li {
+            float: left;
+            margin: 10px;
+            #padding-left: 25px;
+            border: 4px solid white;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        #navigation li:hover {
+            border-color: black;
+        }
+
+        #navigation li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-size: 120%;
+        }
+
+        #navigation li a:link {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-size: 120%;
+        }
+
+        #navigation li a:visited {
+            color: darkviolet;
+        }
+
+        #navigation li a:active {
+            text-decoration: none;
+            font-size: 120%;
+            transform: scale(1.2);
+        }
+
+        #navigation li a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .headerSpecial {
+            font-family: Cambria;
+            font-size: 64px;
+            text-shadow: 4px 4px 6px #808080;
+            text-align: center;
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            height: 50px;
+            padding: 15px;
+            background-color: #000;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        button:hover, a:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body style="background-color: WhiteSmoke;">
+<div id="navigation">
+    <!---->
+    <ul>
+        <li><a href="room.ejs">Room</a></li>
+    </ul>
+    <!---->
+
+
+</div>
+<br/>
+<div class="headerSpecial">User Profile Card</div>
+<br/>
+
+<div class="card">
+    <br/>
+    <h1>Full Name</h1>
+    <p class="username">Username</p>
+    <p class="email">E-mail</p>
+    <br/>
+</div>
+
+<footer>
+    <p>
+        <button>Contact</button>
+    </p>
+</footer>
+
+</body>
+</html>
