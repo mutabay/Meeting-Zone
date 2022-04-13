@@ -361,11 +361,23 @@ video:hover {
   padding-right: 0.5rem;
 }
 
-.modal-content {
-  background-color: #212529;
-  color: whitesmoke;
+
+.modal-header
+{
+  background-color: deepskyblue;
 }
 
+
+.modal-content {
+  background-color: white;
+  color: black;
+}
+
+
+.modal-footer
+{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
 
 #chatModal .modal-dialog {
