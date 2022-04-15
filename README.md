@@ -44,7 +44,7 @@ Meeting-Zone is a simple video chat application for multi-users based on React, 
 2) Navigate the folder.
 3) Open CMD / PowerShell in the folder which contains `server.js`.
 4) Type `npm install`. This will install necessary modules for you. <br>
-5-a) You need to create a database in order to run it fully-functional.(https://www.freemysqlhosting.net/ is sufficient for small deployments.) <br>
+5-a) You need to create a database in order to run it fully-functional.(/ is sufficient for small deployments.) <br>
 5.a) Fill DB credentials in `server.js`. These are commented for you. <br>
 5.b) There is a simple database in the app. You can register & login. <br>
 6.a) Type `node server.js`. If it prints **connected**, then DB connection is successful and the app is running without any errors.

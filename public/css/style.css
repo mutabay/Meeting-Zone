@@ -60,7 +60,7 @@ a:visited {
 
 .box-login input[type="text"]:focus, .box-login input[type="password"]:focus {
   width: 270px;
-  border-color: #ff0000;
+  border-color: #d6d4e0;
 }
 
 .box-login input[type="submit"] {
@@ -72,10 +72,10 @@ a:visited {
   margin: 20px auto;
   text-align: center;
   border: 3px solid;
-  border-color: #ff0000;
+  border-color: #d6d4e0;
   padding: 14px 35px;
   outline: none;
-  color: white;
+  color: #5b9aa0;
   border-radius: 24px;
   transition: width 0.25s;
   cursor: pointer;
