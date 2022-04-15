@@ -19,11 +19,11 @@ body {
   position: absolute;
 
   left: 10px;
-  background-color: #b3b3b3;
+  background-color: #b8a9c9;
 }
 
 .openbtn:hover {
-  background-color: #e8f1f5;
+  background-color: #5b9aa0;
 }
 
 .sidebar .leave-a:hover {
@@ -42,7 +42,7 @@ body {
   /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #7a7a7a;
+  background-color: #5b9aa0;
   overflow-x: hidden;
   /* Disable horizontal scroll */
   padding-top: 60px;
@@ -53,25 +53,31 @@ body {
 
 /* The sidebar links */
 .sidebar a {
-  padding: 8px 8px 8px 32px;
+  padding: 1px 1px 1px 12px;
   text-decoration: none;
-  font-size: 25px;
-  color: white;
+  font-size: 28px;
+  color: #d6d4e0;
   display: block;
   transition: 0.3s;
+  position: absolute;
+  top: 0;
+  margin-top: 1;
+  
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: #b5b5b5;
+  color: #b8a9c9;
 }
+
 
 .sidebar .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  right: 1px;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 1;
 }
 
 .sidebar .closebtn:hover {
@@ -155,11 +161,11 @@ body {
 }
 
 .main__mute_button:hover {
-  background-color: #100f0f;
+  background-color: #b8a9c9;
 }
 
 .main__video_button:hover {
-  background-color: #100f0f;
+  background-color: #b8a9c9;
 }
 
 .main__exit_button:hover {
@@ -355,11 +361,23 @@ video:hover {
   padding-right: 0.5rem;
 }
 
-.modal-content {
-  background-color: #212529;
-  color: whitesmoke;
+
+.modal-header
+{
+  background-color: deepskyblue;
 }
 
+
+.modal-content {
+  background-color: white;
+  color: black;
+}
+
+
+.modal-footer
+{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
 
 #chatModal .modal-dialog {

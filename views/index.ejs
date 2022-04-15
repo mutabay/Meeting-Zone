@@ -50,20 +50,19 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Profile</h5>
+          <h6 class="modal-title" id="exampleModalLabel">Profile</h6>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 
         <div class="modal-body">
 
-          <label >Username:</label>
+            <label >Username:</label>
             <h3 id="username"><%= username %> </h3>
             <br>
             <label >Name:</label>
             <h3 id="username"><%= firstname %></h3>
             <br>
-
-            <label for "getEmail">Email</label>
+            <label>Email:</label>
             <h3 id="username"><%= email %></h3>
 
 
@@ -78,7 +77,7 @@
   <!-- Main section -->
   <section id="MainSection">
 
-    <div class="MainSecionBackground float-container ">
+    <div class="MainSectionBackground float-container ">
       <!--  Friends Section  -->
       <!--
       <div class="SearchAndFriendsSection float-child">
@@ -133,6 +132,11 @@
       <!-- Buttons Section -->
       <div class="MainSectionButton float-child" >
         <section id="buttonSection">
+          <div class="circle xxlarge shade1"></div>
+          <div class="circle xlarge shade2"></div>
+          <div class="circle large shade3"></div>
+          <div class="circle medium shade4"></div>
+          <div class="circle small shade5"></div>
           <button type="button" onclick="joinRoom()" class="btn btn-lg  joinBtn btn-primary"><i class="fas fa-dungeon"></i> Join Room</button>
 
             <a  class="btn btn-lg  createBtn btn-outline-dark joinSectioninsdeDivbtn" href="<%= roomId  %>" ><i class="fas fa-hat-wizard"></i>Create Room</a>
