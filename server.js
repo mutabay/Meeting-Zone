@@ -40,11 +40,6 @@ email NVARCHAR(50) NOT NULL,
 PRIMARY KEY(student_id)
 );
 
-CREATE TABLE STUDENT_ROOM(
-student_id INT NOT NULL,
-room_id INT NOT NULL
-);
-
 ALTER TABLE STUDENT_ROOM ADD CONSTRAiNT FK_student_id FOREiGN KEY (student_id) REFERENCES STUDENT(student_id) ON DELETE CASCADE;
 ALTER TABLE STUDENT_ROOM ADD CONSTRAiNT FK_room_id FOREiGN KEY (room_id) REFERENCES ROOM(room_id) ON DELETE CASCADE;
 
@@ -106,6 +101,7 @@ app.post('/', function(request, response) {
   }
 });
 
+
 // Middlewares
 app.use("/peerjs", peerServer);
 
@@ -158,6 +154,38 @@ app.post('/register', function(request, response) {
   }
 });
 
+app.post('/room', function(request, response) {
+  var username = request.body.username;
+  var password = request.body.password;
+  var email = request.body.email;
+  var firstName = request.body.FirstName;
+  var conf_password = request.body.conf_password;
+  var secretAnswer = request.body.securityQuestion;
+  if ((conf_password == password) && (username != '') && (secretAnswer != '') &&(email != '') && (firstName != '') && (password != '')) {
+    con.query(`SET FOREIGN_KEY_CHECKS = 0;
+    DROP TABLE IF EXISTS ROOM;
+    DROP TABLE IF EXISTS STUDENT;
+    CREATE TABLE ROOM(
+    room_id INT NOT NULL,
+    room_pass INT,
+    PRIMARY KEY(room_id)
+    ALTER TABLE STUDENT_ROOM ADD CONSTRAiNT FK_student_id FOREiGN KEY (student_id) REFERENCES STUDENT(student_id) ON DELETE CASCADE;
+    ALTER TABLE STUDENT_ROOM ADD CONSTRAiNT FK_room_id FOREiGN KEY (room_id) REFERENCES ROOM(room_id) ON DELETE CASCADE;
+    );
+    
+    ) `)
+    con.query('INSERT INTO STUDENT (username,pass,securityQuestion,firstname,email) VALUES (?,?,?,?,?)', [username, password, secretAnswer, firstName, email], function(error, results) {
+      console.log(error)
+      console.log(results)
+      response.redirect('/');
+      response.end();
+    });
+  } else {
+
+    response.redirect('/register');
+    response.end();
+  }
+});
 app.get("/reset", (req, res) => {
   // res.redirect(`/${shortid.generate()}`);
   res.render("ResetPassword");
