@@ -22,38 +22,14 @@ const peerServer = ExpressPeerServer(server, {
   debug: process.env.NODE_ENV === "development",
 });
 
-/* renew database
-SET FOREIGN_KEY_CHECKS = 0;
-DROP TABLE IF EXISTS ROOM;
-DROP TABLE IF EXISTS STUDENT;
-CREATE TABLE ROOM(
-room_id INT NOT NULL,
-room_pass INT,
-PRIMARY KEY(room_id)
-);
-
-CREATE TABLE STUDENT(
-student_id INT NOT NULL,
-student_name NVARCHAR(50) NOT NULL,
-student_surname NVARCHAR(50) NOT NULL,
-email NVARCHAR(50) NOT NULL,
-PRIMARY KEY(student_id)
-);
-
-ALTER TABLE STUDENT_ROOM ADD CONSTRAiNT FK_student_id FOREiGN KEY (student_id) REFERENCES STUDENT(student_id) ON DELETE CASCADE;
-ALTER TABLE STUDENT_ROOM ADD CONSTRAiNT FK_room_id FOREiGN KEY (room_id) REFERENCES ROOM(room_id) ON DELETE CASCADE;
-
-INSERT into STUDENT VALUES (1,'Furkan','Öcalan','furkanocalan@hotmail.com');
-*/ 
-
 
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
   host: "sql11.freemysqlhosting.net",
-  user: "sql11488726",
-  password: "xcgNVMQCUn",
-  database: 'sql11488726',
+  user: "sql11491576",
+  password: "JtzYkF2QT5",
+  database: 'sql11491576',
   port: '3306'
 });
 
