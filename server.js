@@ -27,9 +27,9 @@ var mysql = require('mysql');
 
 var con = mysql.createConnection({
   host: "sql11.freemysqlhosting.net",
-  user: "sql11491576",
-  password: "JtzYkF2QT5",
-  database: 'sql11491576',
+  user: "sql11495163",
+  password: "GPEwJXjcHr",
+  database: 'sql11495163',
   port: '3306'
 });
 
