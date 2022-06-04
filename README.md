@@ -24,7 +24,7 @@ Meeting-Zone is a simple video chat application for multi-users based on React, 
 - [Syled-components](https://styled-components.com/)
 - [Simple-peer](https://github.com/feross/simple-peer)
 
-**Contributors:** [Hyunse Kim](https://github.com/Hyunse)
+**Forked From:** [Hyunse Kim](https://github.com/Hyunse)
 
 ---
 
