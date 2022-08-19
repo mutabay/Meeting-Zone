@@ -4,13 +4,13 @@ Software Project Management Term Project
 
 https://meeting-zone.herokuapp.com/
 
-Mustafa Tayyip BAYRAM - 170706007  
+Mustafa Tayyip BAYRAM - 170706007  - SCRUM Master
 Furkan ÖCALAN - 170706003  
 Damlanur TOPCU - 170706012  
 Ecem - YENİTÜRK - 170706024  
 Kutay - TORLAK - 180706026  
-Mert - YILMAZ -  180706006 
-Rabia - ÖZDEMİR - 170706009
+Mert - YILMAZ -  180706006   
+Rabia - ÖZDEMİR - 170706009  
 
 Meeting-Zone is a simple video chat application for multi-users based on React, Node Express and WebRTC.
 
