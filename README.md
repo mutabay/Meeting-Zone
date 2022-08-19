@@ -4,7 +4,7 @@ Software Project Management Term Project
 
 https://meeting-zone.herokuapp.com/
 
-Mustafa Tayyip BAYRAM - 170706007  - SCRUM Master
+Mustafa Tayyip BAYRAM - 170706007  - SCRUM Master  
 Furkan ÖCALAN - 170706003  
 Damlanur TOPCU - 170706012  
 Ecem - YENİTÜRK - 170706024  
